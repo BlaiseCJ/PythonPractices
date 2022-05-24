@@ -13,5 +13,7 @@ print(names)
 
 print("Kane" in names) # The 'in" operator checks for items and returns a True or False boolean
 
-names.clear()  #This clears the items on the list
-print(names)
+print(len(names))     # This gives the number of items on the list
+
+print(names.clear())
+
